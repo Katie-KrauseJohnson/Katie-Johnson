@@ -1,5 +1,5 @@
-"use client"
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import {
   Box,
   Text,
@@ -14,7 +14,6 @@ import {
 import { motion } from "framer-motion";
 import Image from "next/image";
 import kaiteImg from "../../../public/KatieJohnson2-Photoroom.png";
-import { useEffect } from "react";
 
 const MotionBox = motion(Box);
 
@@ -67,7 +66,7 @@ function AboutMe() {
                 maxW="container.md"
                 opacity={0.9}
               >
-                Learn more about my journey and mission in educational innovation
+                Discover more about my journey and mission in educational innovation.
               </Text>
             </VStack>
           </MotionBox>
@@ -111,14 +110,14 @@ function AboutMe() {
                 fontSize="xl"
                 lineHeight="tall"
               >
-                As a former teacher and a parent of five children&mdash;four with diagnosed learning disabilities&mdash;I understand the challenges educators and students face. My teaching career, though short, opened my eyes to the daily struggles teachers endure to meet their students&apos; needs.
+                As a former educator and a parent of five children—four of whom have diagnosed learning disabilities—I have a deep understanding of the challenges that both educators and students face. My teaching career, though brief, opened my eyes to the daily struggles teachers endure in meeting the diverse needs of their students.
               </Text>
               <Text
                 color="gray.600"
                 fontSize="xl"
                 lineHeight="tall"
               >
-                My mission is to help teachers incorporate simple accommodations into their lessons, ensuring every student can participate in impactful learning. I believe in empowering educators to create inclusive classrooms where all students can thrive.
+                My mission is to assist educators in seamlessly incorporating simple accommodations into their lessons, ensuring that every student can engage in meaningful learning. I am dedicated to empowering educators to create inclusive classrooms where all students have the opportunity to succeed.
               </Text>
               <HStack spacing={4} pt={4}>
                 <Badge colorScheme="blue" p={2} borderRadius="md">Education</Badge>
@@ -134,3 +133,4 @@ function AboutMe() {
 }
 
 export default AboutMe;
+
