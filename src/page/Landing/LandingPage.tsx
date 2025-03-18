@@ -115,7 +115,7 @@ function LandingPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.4, duration: 0.8 }}
                 >
-                  Empowering neurodiverse students and educating school staff about dyslexia ADHD and more.
+                  Empowering neurodiverse students and collaborating with school staff to change the world for those with dyslexia, ADHD, and more.
                 </MotionText>
                 {/**
                 <MotionBox
@@ -160,10 +160,10 @@ function LandingPage() {
                   <Box>
                     <Heading as="h2" size="xl" mb={4} color="purple.500">Katie Johnson</Heading>
                     <Text fontSize="lg" mb={4} color="gray.600">
-                      With over 15 years of experience in special education Katie Johnson is passionate about creating inclusive learning environments. She founded Academic Pathways to bridge the gap between neurodiverse students and educational institutions.
+                      As a former teacher and a parent of neurodiverse children, Katie Johnson is passionate about creating inclusive learning environments. She founded Academic Pathways to bridge the gap between neurodiverse students and education, and education and neurodiverse students. As a former teacher, she knows time is precious! Academic Pathways aims to support teachers as well as students, offering easily accessible strategies, tips, and ready-to-use resources to meet IEP accommodations. 
                     </Text>
                     <Text fontSize="lg" color="gray.600">
-                      Katies approach combines advocacy education and practical strategies to ensure every student has the opportunity to thrive academically and personally.
+                      Katie's approach combines advocacy, education, and practical strategies to ensure every student has the opportunity to thrive academically and personally.
                     </Text>
                     <Button onClick={() => { router.push("/about") }} size="lg" mt={6} colorScheme="purple" variant="outline" rounded="full">
                       About Katie
